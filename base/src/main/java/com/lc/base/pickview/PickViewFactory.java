@@ -365,7 +365,7 @@ public class PickViewFactory {
             ArrayList<String> options2Items_01 = new ArrayList<>();
             for (int j = start; j <= max; j++) {
                 if(j<10){
-                    options2Items_01.add(j + "");
+                    options2Items_01.add("0"+j);
                 }else {
                     options2Items_01.add(j + "");
                 }
